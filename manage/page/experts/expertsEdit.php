@@ -41,7 +41,7 @@
                                 <div class="col-md-4">
                                      <div class="input-group">
                                          <span>
-                                             修改专家委员会
+                                             修改专家
                                          </span>
                                      </div>
                                 </div> 
