@@ -42,7 +42,7 @@ nav ul { overflow: hidden; border: #539dcf 1px solid; text-align: center;float: 
 .center_news section p a { color: #F00 }
 .center_news ul li { background: url(../images/newsli.png) left center no-repeat; line-height: 27px; font-size: 14px; padding-left: 10px; height: 27px; display: block }
 .center_news ul li img { _padding: 7px 0 0 0 }
-.center_news ul { border-bottom: #CCC 1px dashed; padding-bottom: 8px }
+.center_news ul { border-bottom: #CCC 1px dashed;  }
 /* 通知公告 */
 .announce { width: 250px; height: 280px; overflow: hidden }
 .announce h2 { font-size: 14px; color: #fff; background: url(../images/annh2.png) no-repeat; padding-left: 20px; line-height: 27px; height: 27px }

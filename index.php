@@ -201,12 +201,12 @@
  
       </div>
       <div class="center_news right">
-        <section class="c_n_top" style="display: block;height: 80px;">
-          <h3 style="font-size: 15px;">协会简介</h3>
+        <section class="c_n_top" style="display: block;height: 10px;margin-bottom: 14px;">
+<!--           <h3 style="font-size: 15px;">协会简介</h3>
           <p style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap; "><?php
               echo $aboutInfo[0]['aboutInfo'];
             ?></p>
-         <div style="float: right;">[<a href="about/xhjianjie.php" target="_blank">详情</a>]</div>
+         <div style="float: right;">[<a href="about/xhjianjie.php" target="_blank">详情</a>]</div> -->
         </section>
         <ul>
           <?php 
@@ -216,16 +216,17 @@
                   $totalNum = 5;
                 }
                 for ($i=0; $i < $totalNum; $i++) { 
-                    $content = "<li><a href='xhnews/xhnewsDetail.php?newsId=".$allXhNews[$i]['newsId']."' target='_blank'>" . $allXhNews[$i]['title'] ."</a></li>";
+                    $content = "<li style='font-size:16px; display:block;margin-bottom:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap'><a href='xhnews/xhnewsDetail.php?newsId=".$allXhNews[$i]['newsId']."' target='_blank'>" . $allXhNews[$i]['title'] ."</a></li>";
                     echo $content;
                 }
-                for ($i=0; $i < 6 - $totalNum; $i++) { 
+                for ($i=0; $i < 5 - $totalNum; $i++) { 
                   echo "<br/>";
                 }
             }else{
                 echo "暂无数据";
             } 
           ?>
+          <div style="height: 4px;"></div>
         </ul>
       </div>
     </ul>

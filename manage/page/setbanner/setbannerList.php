@@ -53,7 +53,7 @@
                                                 } else {
                                                     $content .= "暂无标题";
                                                 }
-                                                $content .= "</td><td><a href='setbannerEdit.php?id=".$i."'><i class='fa fa-wrench'></i> &nbsp;修改图片&nbsp;&nbsp;&nbsp; </a><a href='setbannerEditTitle.php?id=".($i+1)."'><i class='fa fa-wrench'></i> &nbsp;修改标题&nbsp;&nbsp;&nbsp; </a></td></tr>";
+                                                $content .= "</td><td><a href='setbannerEdit.php?id=".($i+1)."'><i class='fa fa-wrench'></i> &nbsp;修改图片&nbsp;&nbsp;&nbsp; </a><a href='setbannerEditTitle.php?id=".($i+1)."'><i class='fa fa-wrench'></i> &nbsp;修改标题&nbsp;&nbsp;&nbsp; </a></td></tr>";
                                                 echo $content;
                                             }
                                         ?>
