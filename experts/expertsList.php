@@ -4,7 +4,7 @@
     $allexperts = $experts->selectAllexperts();
 ?>
 <!doctype html>
-<html>
+<html> 
 <head>
 <meta charset="utf-8">
 <title>山东省钢结构行业协会</title>
@@ -34,11 +34,34 @@
 </header>
 <!--头部 end-->
 <div class="contain">
-  <div class="listl left">
+    <div class="listl left">
     <h2>专家委员会</h2>
+    <ul>
+      <li>
+        <a href='../experts/expertsList.php'>
+          <span style='overflow: hidden;text-overflow:ellipsis;white-space: nowrap;display:block'>
+            专家列表
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href='../zjglbf/zjglbfList.php'>
+          <span style='overflow: hidden;text-overflow:ellipsis;white-space: nowrap;display:block'>
+            专家管理办法
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href='../zjsqb/zjsqbList.php'>
+          <span style='overflow: hidden;text-overflow:ellipsis;white-space: nowrap;display:block'>
+            专家申请表
+          </span>
+        </a>
+      </li>
+    </ul>
   </div>
   <div class="listr right">
-    <h2><span>您现在的位置: <a href="/">山东省钢结构协会</a>>><a href="expertsList.php">专家委员会</a></span>专家委员会</h2>
+    <h2><span>您现在的位置: <a href="/">山东省钢结构协会</a>>><a href="expertsList.php">专家委员会</a>>><a href="expertsList.php">专家列表</a></span>专家列表</h2>
     <ul>
 
       <?php

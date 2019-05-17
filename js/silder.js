@@ -2,9 +2,7 @@ var obj=null;
 var As=document.getElementById('nav').getElementsByTagName('a');
 obj = As[0];
 for(i=1;i<As.length;i++){
-	// console.log(As[8]);
-	// if(window.location.href.indexOf(As[i].href)>=0)
-	// 	obj=As[i];
+
 	if(window.location.href.indexOf("index")>=0){
 		obj=As[0];
 		break;
@@ -21,7 +19,9 @@ for(i=1;i<As.length;i++){
 		obj=As[3];
 		break;
 	}
-	if(window.location.href.indexOf("experts")>=0){
+	if(window.location.href.indexOf("experts")>=0||
+		window.location.href.indexOf("zjglbf")>=0||
+		window.location.href.indexOf("zjsqb")>=0){
 		obj=As[4];
 		break;
 	}
@@ -36,7 +36,8 @@ for(i=1;i<As.length;i++){
 		obj=As[6];
 		break;
 	}
-	if(window.location.href.indexOf("policy")>=0){
+	if(window.location.href.indexOf("policy")>=0||
+		window.location.href.indexOf("law")>=0){
 		obj=As[7];
 		break;
 	}

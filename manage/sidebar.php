@@ -80,10 +80,30 @@
             </a>
         </li>
 
-        <li class="nav-item">
-            <a name="theBar" href="<?php echo "http://".$_SERVER['HTTP_HOST'] . "/gjgxh/manage/page/experts/expertsList.php"; ?>" class="nav-link ">
-                <i class="icon icon icon-grid"></i> 专家委员会
+        <li class="nav-item nav-dropdown">
+            <a href="#" class="nav-link nav-dropdown-toggle">
+                <i class="icon icon-grid"></i> 专家委员会 <i class="fa fa-caret-left"></i>
             </a>
+
+            <ul class="nav-dropdown-items">
+                <li class="nav-item">
+                    <a name="theBar" href="<?php echo "http://".$_SERVER['HTTP_HOST'] . "/gjgxh/manage/page/experts/expertsList.php"; ?>" class="nav-link">
+                        <i class="icon icon-target"></i> 专家列表
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a name="theBar" href="<?php echo "http://".$_SERVER['HTTP_HOST'] . "/gjgxh/manage/page/zjglbf/zjglbf.php"; ?>" class="nav-link">
+                        <i class="icon icon-target"></i> 专家管理办法
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a name="theBar" href="<?php echo "http://".$_SERVER['HTTP_HOST'] . "/gjgxh/manage/page/zjsqb/zjsqb.php"; ?>" class="nav-link">
+                        <i class="icon icon-target"></i> 专家申请表
+                    </a>
+                </li>
+            </ul>
         </li>
 
         <li class="nav-item nav-dropdown">
@@ -148,11 +168,6 @@
             </a>
         </li>
 
-<!--         <li class="nav-item">
-            <a name="theBar" href="<?php echo "http://".$_SERVER['HTTP_HOST'] . "/gjgxh/manage/page/companyNews/companyNewsList.php"; ?>" class="nav-link ">
-                <i class="icon icon icon-grid"></i> 企业名录
-            </a>
-        </li> -->
         <li class="nav-item nav-dropdown">
             <a href="#" class="nav-link nav-dropdown-toggle">
                 <i class="icon icon-grid"></i> 政策法规 <i class="fa fa-caret-left"></i>
